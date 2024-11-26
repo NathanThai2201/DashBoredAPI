@@ -8,7 +8,7 @@ POST  http://localhost:5187/posts
 Content-Type: application/json
 
 {
-    "Name":"Posted post",
+    "Name":"Posted post aaa",
     "Description":"Posted post desc",
     "Date":"2012-10-10"
 }
