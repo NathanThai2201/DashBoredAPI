@@ -1,0 +1,8 @@
+[build]
+builder = "dockerfile"
+dockerfilePath = "./DashBored.Api/Dockerfile"
+
+[deploy]
+startCommand = "./DashBored.Api"
+restartPolicyType = "always"
+healthcheckPath = "/health"
