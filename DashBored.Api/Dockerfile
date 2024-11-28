@@ -17,9 +17,10 @@ RUN dotnet build "./DashBored.Api.csproj" -c $configuration -o /app/build
 FROM build AS publish
 ARG configuration=Release
 RUN dotnet publish "./DashBored.Api.csproj" -c $configuration -o /app/publish /p:UseAppHost=false
+RUN ls -al /app/out
 
 FROM base AS final
 WORKDIR /app
 EXPOSE 8080
 COPY --from=publish /app/publish .
-ENTRYPOINT ["./DashBored.Api"]
+ENTRYPOINT ["dotnet", "./DashBored.Api"]
