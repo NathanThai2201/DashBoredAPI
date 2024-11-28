@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DashBored.Api", "DashBored.Api\DashBored.Api.csproj", "{31804EBF-20A9-4A23-B8F2-D678E14109E1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DashBored.Api", "DashBored.Api\DashBored.Api.csproj", "{42FD134D-D3A8-42A4-A73A-585AB805E860}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -14,9 +14,9 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{31804EBF-20A9-4A23-B8F2-D678E14109E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{31804EBF-20A9-4A23-B8F2-D678E14109E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{31804EBF-20A9-4A23-B8F2-D678E14109E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{31804EBF-20A9-4A23-B8F2-D678E14109E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42FD134D-D3A8-42A4-A73A-585AB805E860}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42FD134D-D3A8-42A4-A73A-585AB805E860}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42FD134D-D3A8-42A4-A73A-585AB805E860}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42FD134D-D3A8-42A4-A73A-585AB805E860}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
