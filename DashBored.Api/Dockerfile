@@ -20,5 +20,6 @@ RUN dotnet publish "./DashBored.Api.csproj" -c $configuration -o /app/publish /p
 
 FROM base AS final
 WORKDIR /app
+EXPOSE 8080
 COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "./DashBored.Api"]
+ENTRYPOINT ["./DashBored.Api"]
