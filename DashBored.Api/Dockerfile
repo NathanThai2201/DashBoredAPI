@@ -21,4 +21,4 @@ RUN dotnet publish "DashBored.Api.csproj" -c $configuration -o /app/publish /p:U
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "./DashBored.Api.dll"]
+ENTRYPOINT ["dotnet", "DashBored.Api.dll"]
