@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "kalbwydxFVgfLaAOyJZSWXxmBfXJYucatZNWen0jhHk=",
+  "Source": "DashBoredAPI",
+  "BasePath": "_content/DashBoredAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
