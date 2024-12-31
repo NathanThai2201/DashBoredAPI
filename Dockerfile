@@ -6,11 +6,11 @@ COPY ["DashBoredAPI.csproj", "./"]
 RUN dotnet restore "DashBoredAPI.csproj"
 COPY . .
 WORKDIR "/src/."
-RUN dotnet build "DashBoredAPI.csproj" -c $configuration -o /app/build
+RUN dotnet build "DashBoredAPI.csproj" -c $BUILD_CONFIGURATION -o /app/build
 
 FROM build AS publish
 ARG configuration=Release
-RUN dotnet publish "DashBoredAPI.csproj" -c $configuration -o /app/publish /p:UseAppHost=false
+RUN dotnet publish "./DashBoredAPI.csproj" -c $BUILD_CONFIGURATION -o /app/publish /p:UseAppHost=false
 
 FROM mcr.microsoft.com/dotnet/runtime-deps:8.0 AS final
 WORKDIR /app
