@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DashBoredAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d5eeb9d88d6ae506e839fd83d5535d66534f2622")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e63c927753d8eb3eb5bc909e6fdb371fc9b1ff75")]
 [assembly: System.Reflection.AssemblyProductAttribute("DashBoredAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DashBoredAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
